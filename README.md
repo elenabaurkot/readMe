@@ -1,6 +1,8 @@
 # README generator 
  The purpose of this project is to create a program to help users easily develop a readme file for their Github projects. Users are prompted with a series of questions and after typing in their answers a formatted README file is generated. 
 
+ ![projectGif](./assets/readMe.gif)
+
 ## Table of Contents
 <ol>
     <li><a href="#installation">Installation</a></li>
