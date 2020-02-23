@@ -11,7 +11,15 @@ inquirer.prompt([
   {
     type: "input",
     message: "What is your GitHub email?",
-    name: "email"
+    name: "email", 
+    validate: function(value) {
+     var pass = value.match
+     (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
+     if (pass) {
+        return true;
+      }
+        return 'Please enter a valid email address'   
+    },
   },
   {
     type: "input",
